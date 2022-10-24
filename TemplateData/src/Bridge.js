@@ -5,3 +5,7 @@ async function initWalletConnect(data){
 async function onWalletConnect(data){
     return await onConnect(data)
 }
+
+async function onSignTransaction(data){
+    return await signTransaction(data)
+}
